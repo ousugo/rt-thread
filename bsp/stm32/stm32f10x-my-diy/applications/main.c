@@ -15,6 +15,9 @@
 /* defined the LED0 pin: PB1 */
 #define LED0_PIN    GET_PIN(B, 5)
 
+/* defined the LED1 pin:PE5 */
+#define LED1_PIN    GET_PIN(E, 5)
+
 int main(void)
 {
     int count = 1;

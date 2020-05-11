@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "../libraries/HAL_Drivers",
+                "../../../include",
+                "../../../components/drivers/include",
+                "../../../components/finsh",
+                "../../../components/libc/compilers/common",
+                "../libraries/STM32F1xx_HAL/CMSIS/Device/ST/STM32F1xx/Include",
+                "../libraries/STM32F1xx_HAL/STM32F1xx_HAL_Driver/Inc",
+                "../libraries/STM32F1xx_HAL/CMSIS/Include",
+                "board/CubeMX_Config/Inc",
+                "../../../libcpu/arm/common",
+                "../../../libcpu/arm/cortex-m3"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
